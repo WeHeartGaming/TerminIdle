@@ -19,7 +19,7 @@ var Terminal = React.createClass({
   handleSubmit: function(e) {
     e.preventDefault();
 
-    if (this.state.text === 'cls')
+    if (this.state.text.toLowerCase() === 'cls')
       nextItems = [];
     else
       var nextItems = this.state.items.concat([{ text: this.state.text, id: Date.now()}]);
