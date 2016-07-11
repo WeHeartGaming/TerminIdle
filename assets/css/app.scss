@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+body {
+  background-color: #3d5c7a;
+}
+
+#terminal {
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  height: 35em;
+  width: 60em;
+  border-style: outset;
+  border-width: 2px;
+}
+
+.topBar {
+  flex: 0 1 1.5em;
+  border-bottom-style: outset;
+  font-family: 'Inconsolata';
+  line-height:1.5em;
+  padding-left: 0.5em;
+  background-color: #696969;
+}
+
+#terminal ul {
+  flex: 1 1 auto;
+  background-color: #000;
+  color: #21B52F;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-padding-before: 0.5em;
+  -webkit-padding-start: 1em;
+  -webkit-padding-end: 1em;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+#terminal form {
+  flex: 0 1 1.5em;
+  background-color: #000;
+  color: #21B52F;
+  font-family: 'Inconsolata';
+}
+
+#terminal label b {
+  width: 3%;
+  padding-left: 0.48em;
+  padding-right: 0.5em;
+}
+
+#terminal input {
+  width: 97%;
+  outline: none;
+  background-color: #000;
+  border-style: none;
+  color: #21B52F;
+  font-family: 'Inconsolata';
+}
